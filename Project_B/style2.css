@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+canvas {
+    display: block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(233, 123, 26);
+    text-decoration: underline;
+}
+
+.textbox06 {
+    position: absolute;
+    left: 415px;
+    top: 430px;
+    scale: 1.7;
+}
+
+.textbox07 {
+    position: absolute;
+    left: 715px;
+    top: 430px;
+    scale: 1.7;
+
+}
+
+#p5_container07 {
+    position: absolute;
+    left: 0px;
+    top: auto;
+}

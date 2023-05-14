@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Butterflies</title>
+
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- link the styles -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- import the libraries -->
+    <script src="lib/p5.js"></script>
+    <script src="lib/p5.sound.js"></script>
+
+    <!-- import my script (it is deferred!) -->
+    <script defer src="Butterflies.js"></script>
+</head>
+
+<body>
+
+    <div id="p5_container02">
+
+    </div>
+
+    <div class="GoBack_button">
+
+        <button id="GoBack" class="btn btn-lg btn-success" type="button" onclick="window.location.href='index.html'">
+            <i class="glyohicon glyphicon-download-alt"></i>GoBack</button>
+
+        <script type="text/javascript">
+            function openWindow() {
+                var obj = document.getElementById("indexPage");
+                obj.href = data.state;
+                obj.click();
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>

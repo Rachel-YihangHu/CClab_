@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+canvas {
+  display: block;
+}
+
+.textbox01 {
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  font-size: xx-large;
+  scale: 2;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(249, 249, 253);
+  text-decoration: underline;
+}
+
+.textbox02 {
+  position: absolute;
+  left: 500px;
+  top: 330px;
+  scale: 1.7;
+}
+
+.textbox03 {
+  position: absolute;
+  left: 700px;
+  top: 315px;
+  scale: 1.7;
+}
+
+.textbox04 {
+  position: absolute;
+  left: 650px;
+  top: 445px;
+  scale: 1.7;
+}
+
+.textbox05 {
+  position: absolute;
+  left: 815px;
+  top: 430px;
+  scale: 1.7;
+}
+
+
+#p5_container01 {
+  position: absolute;
+  left: 100px;
+  top: 180px;
+  z-index: -1
+}
+
+#p5_container02 {
+  position: relative;
+  z-index: -2;
+  left: 10%;
+  top: 20%;
+}
+
+.GoBack_button {
+  position: fixed;
+  left: 20px;
+  top: 600px;
+  z-index: 2;
+}
+
+#p5_container03 {
+  position: inherit;
+  left: 10%;
+  top: 20%;
+  z-index: -1;
+}
+
+.GoBack button {
+  position: fixed;
+  left: 20px;
+  top: 0px;
+  z-index: -2;
+
+}
+
+@media screen and (max-width:200px) {
+  .GoBack button {
+    position: fixed;
+    left: 200px;
+    top: 300px;
+    z-index: 1;
+  }
+}
+
+#p5_container04 {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  z-index: -1;
+}
+
+.Goback_button {
+  position: fixed;
+  left: 500px;
+  top: 380px;
+  z-index: -10;
+
+}
+
+#echo {
+  background-color: rgb(176, 96, 67);
+  position: fixed;
+  left: 20%;
+  top: 20%;
+  z-index: 1;
+  font-size: x-large;
+  text-align: center;
+}
